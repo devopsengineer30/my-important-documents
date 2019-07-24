@@ -43,13 +43,16 @@
   27   git branch 			-- TO SEE BRANCH LIST
   28   git branch hotfix		-- THIS CMD CREATES AN HOTFIX BRANCH
   29   git checkout hotfix              -- TO SWITCH DIRECTORY FROM MASTER TO HOTFIX
+  30   git branch -d hotfix             -- To delete branch
+			(or)
+  30   git branch -D hotfix             -- THIS COMMAND DELETES TH BRANCH HOTFIX
 BRANCHING 
 =========
 1.Hotfix Branch    ---   Master branch created automatically
 2.Release Branch   ---   
 3.Feature Branch   ---   Feature branch created by developer 
 4.Development Branch   ---   Development created by TL & Manager 
-  30   git branch -d hotfix             -- To delete branch
+  
 TAGGING
 =======  
   31   git  tag -l 			-- To show list of tags
@@ -66,6 +69,11 @@ TAGGING
   38   git checkout -b v3.0 release-1.0 -- release-1.0 lo vuna data v3.0 ane branch loki vasthadhi v3.0 ane branch create avvuthadhi
 					   -b=branch
   39   git checkout -b development      -- okesari branch create ayyi aa branch checkout avvali ante USE THIS COMMAND
+  40   git stash                        -- 1) THIS CMD CLEAR CONFUSION BETWEEN TWO BRANCHES
+					   2) THIS CMD IS TO STORE INNCOMPLETE WORK IF YOU WANT TO MOVE TO ANOTHER BRANCH (OR) WORK.
+					   3) THIS CMD IS TO HIDE FILES
+  41   git stash pop			-- TO RETAIN GIT STASH
+  
 
 
 
