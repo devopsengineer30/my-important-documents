@@ -6,6 +6,8 @@ ubuntu@ip-172-31-25-31:~$
 =========================
     1  sudo apt-get update
     2  curl -fsSL https://get.docker.com -o get-docker.sh    --THIS IS SCRIPT TO INSTALL DOCKER
+						(OR)
+    2.1 sudo apt-get install docker.io
     3  sh get-docker.sh                                     
     4  sudo usermod -aG docker ubuntu                        --	WITH THIS COMMAND WE USE TO GIVE SUDO PERMISSION FOR UBUNTU
     5  docker --version
